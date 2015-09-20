@@ -1,0 +1,27 @@
+{
+  "name": "starter-node-angular",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "mongoose": "^4.1.0",
+    "q": "^1.0.1",
+    "request": "^2.36.0",
+    "method-override" : "~2.0.2"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhongHPham/starter-node-angular.git"
+  },
+  "author": "phong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhongHPham/starter-node-angular/issues"
+  },
+  "homepage": "https://github.com/PhongHPham/starter-node-angular#readme"
+}
