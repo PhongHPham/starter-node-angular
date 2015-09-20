@@ -14,7 +14,8 @@ var db = require('./config/db');
 
 var port = process.env.PORT || 8080;
 
-mongoose.connect(db.url); // enter my own credentials
+//mongoose.connect(db.url); // enter my own credentials; uncomment after
+//you enter in your own credentials in config/db.js
 
 // get all data/stuff of the body (POST) parameters
 // parse application/json
@@ -45,4 +46,4 @@ app.listen(port);
 console.log('Magic happens on port ' + port);
 
 // expose app
-exports = module.exports = app;
+module.exports = app;

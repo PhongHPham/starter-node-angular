@@ -1,5 +1,5 @@
 // grab the nerd model we jsut created 
-var Nerd = require('./models/nerd');
+var Nerd = require(__dirname + '/models/nerd');
 
 module.exports = function(app) {
 
@@ -33,7 +33,7 @@ module.exports = function(app) {
     can handle routing them from there
   */
   app.get('*', function(req, res) {
-    res.sendFile('.public/views/index.html'); //load our public/index.html file
+    res.sendFile('/Users/Hobbes/Desktop/hr/practice/starter-node-angular/public/views/index.html'); //load our public/index.html file
   });
 
 };
