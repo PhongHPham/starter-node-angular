@@ -8,7 +8,7 @@ var methodOverride = require('method-override');
 // configuration ======
 
 
-var db = require('./config/db');
+var db = require('.no-/config/db');
 
 // set our port
 
